@@ -1,0 +1,10 @@
+.Success {
+    margin-top: 20px;
+    position: relative;
+}
+
+.Success img {
+    position: relative;
+    height: 100px;
+    filter: contrast(80%);
+}

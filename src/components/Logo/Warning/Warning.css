@@ -1,0 +1,10 @@
+.Warning {
+    margin-top: 20px;
+    position: relative;
+}
+
+.Warning img {
+    position: relative;
+    height: 100px;
+    filter: contrast(80%);
+}

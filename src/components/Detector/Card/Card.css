@@ -1,0 +1,18 @@
+.Card {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #6e6d6d;
+    border-radius: 5px;
+    background-color: #ffaa71;
+    text-align: center;
+}
+
+.Card p {
+    position: relative;
+    font-size: 20px;
+    color: #6e6d6d;
+    align-self: center;
+    left: 40px;
+}

@@ -1,0 +1,13 @@
+.ValidSamples {
+    position: relative;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+.ValidSamples img {
+    mix-blend-mode: multiply;
+}
+
+.ValidSamples h2 {
+    color: #41444b;
+    text-decoration: underline;
+}

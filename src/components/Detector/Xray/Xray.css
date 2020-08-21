@@ -1,0 +1,12 @@
+.Xray {
+    position: relative;
+}
+
+.Xray img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #ffaa71;
+    border-radius: 5px;
+}
