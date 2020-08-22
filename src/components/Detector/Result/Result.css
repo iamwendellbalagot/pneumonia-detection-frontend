@@ -30,7 +30,7 @@
 .container {
     position: relative;
     border-radius: 5px;
-    padding: 0 22px 0px 22px;
+    padding: 2px 22px 2px 22px;
     background-color: #6e6e6e;
     left: 15px;
     height: 100%;
