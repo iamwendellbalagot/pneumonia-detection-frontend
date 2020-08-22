@@ -1,0 +1,34 @@
+
+.Nothingness{
+    display: none;
+}
+
+@media (min-width:0px) and (max-width:719px){
+    .Nothingness {
+        display: block;
+        background-color: #41444b;
+        height: 300px;
+        width: 70%;
+        position: absolute;
+        margin: 0 auto 0 auto;
+        left: 0;
+        top: 25%;
+        right: 0;
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+
+    .Nothingness h2{
+        position: relative;
+        top: 20%;
+        color: #ffaa71;
+        text-decoration: underline;
+    }
+
+    .Nothingness p {
+        position: relative;
+        top: 20%;
+        font-size: 20px;
+        color: #ccc;
+    }
+}

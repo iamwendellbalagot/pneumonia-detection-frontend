@@ -23,7 +23,6 @@ const Detector = (props) => {
                     <Filebase 
                     multiple = {props.multiple}
                     onDone = {props.onDone} />
-                    <p onClick = {props.showSample}>Click here to view sample images</p>
                 </div>
 
                 <div className = {classes.container2}>
@@ -34,6 +33,8 @@ const Detector = (props) => {
                 </div>
                 
             </section>
+            <p className = {classes.showSamp} onClick = {props.showSample}>Click here to view sample images</p>
+
         </div>
     );
 };

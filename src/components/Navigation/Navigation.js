@@ -5,7 +5,7 @@ import Toolbar from './Toolbar/Toolbar';
 const Navigation = (props) => {
     return (
         <nav className = {classes.Navigation}>
-            <Toolbar />
+            <Toolbar/>
         </nav>
     );
 };

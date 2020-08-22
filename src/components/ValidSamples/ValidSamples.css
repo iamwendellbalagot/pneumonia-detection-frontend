@@ -1,13 +1,20 @@
 .ValidSamples {
     position: relative;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 50px auto;
     text-align: center;
 }
 .ValidSamples img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     mix-blend-mode: multiply;
+    display: block;
 }
 
 .ValidSamples h2 {
     color: #41444b;
     text-decoration: underline;
+    font-size: 100%;
+    height: 20px;
+    position: relative;
 }

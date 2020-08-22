@@ -8,6 +8,7 @@ import Detector from '../../components/Detector/Detector';
 import Footer from '../../components/Footer/Footer';
 import ValidSamples from '../../components/ValidSamples/ValidSamples';
 import Modal from '../../components/Modal/Modal';
+import Nothingness from '../../components/Nothingness/Nothingness';
 
 class Home extends Component {
 
@@ -25,9 +26,10 @@ class Home extends Component {
         showSample: false
     }
 
-    componentDidUpdate(){
-        console.log(this.state.result)
-    }
+    // componentDidMount(){
+    //     console.log(this.props)
+    // }  
+    
 
     // Callback~
     getFiles(files) {
@@ -53,7 +55,6 @@ class Home extends Component {
 
         axios.post('/predict', this.state.payload)
             .then(res => {
-                console.log('Success')
 
                 setTimeout(() =>{
                     this.setState({showSpinner:false})
@@ -79,11 +80,8 @@ class Home extends Component {
         })
     }
 
-   
-
     render(){
 
-        
         return(
             <div className = {classes.Home}>
                 <Navigation />
@@ -95,6 +93,7 @@ class Home extends Component {
                 result = {this.state.result} 
                 showSpinner= {this.state.showSpinner} 
                 showSample = {this.showSampleHandler}/>
+                <Nothingness />
 
                 <Modal 
                 show = {this.state.showSample} 
