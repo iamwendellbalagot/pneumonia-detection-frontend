@@ -4,7 +4,8 @@ import classes from './FileBase64.css';
 class FileBase64 extends Component {
 
     state = {
-        files:[]
+        files:[],
+        bind: null
     }
 
      handleChange(e) {
@@ -48,15 +49,22 @@ class FileBase64 extends Component {
              } // reader.onload
          } // for
      }
+
+     handleBind = () => {
+        this.setState({bind: this.handleChange.bind(this)});
+     }
+
     render() {
         return (
-            <div className = {classes.FileBase}>
+            <div className = {classes.FileBase} onClick={this.handleBind} >
                 <span>Choose a file</span>
                 <input
                 type="file"
                 name = 'photo'
-                onChange={ this.handleChange.bind(this) }
-                multiple={ this.props.multiple } />
+                // onChange={ this.handleChange.bind(this) }
+                onChange = {this.state.bind}
+                multiple={ this.props.multiple }
+                 />
             </div>
         );
     }

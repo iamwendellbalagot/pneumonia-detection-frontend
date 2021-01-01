@@ -1,13 +1,15 @@
 .Footer {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #41444b;
-    float: bottom;
+  margin: 0;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #41444b;
+  float: bottom;
 }
 
 .Footer p {
-    text-align: center;
-    color: #ececec;
-    padding: 0px 16px;
+  color: #ececec;
+  padding: 0px 16px;
 }

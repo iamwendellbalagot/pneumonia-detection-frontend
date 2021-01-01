@@ -1,39 +1,42 @@
 .Result {
-    display: flex;
-    height: 200px;
-    width: 400px;
-    margin: 20px auto 20px auto;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  margin: 20px auto 20px auto;
+  text-align: center;
 }
 
-.infotext{
-    margin-top:80px ;
-    font-size: 18px;
-    color: #fff;
-    align-self: center;
+.infotext {
+  margin-top: 80px;
+  font-size: 18px;
+  color: #fff;
+  align-self: center;
 }
 
 .textresult {
-    margin-top: 10px;
-    margin-bottom: 0;
-    font-size: 25px;
-    color: #fff;
-    font-weight: 700;
-    align-self: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+  align-self: center;
 }
 
 .prob {
-    color:#fff;
-    margin: 0;
+  color: #fff;
+  margin: 0;
 }
 
 .container {
-    position: relative;
-    border-radius: 5px;
-    padding: 2px 22px 2px 22px;
-    background-color: #6e6e6e;
-    left: 15px;
-    height: 100%;
-    width: 82%;
-    align-self: center;
+  position: relative;
+  border-radius: 5px;
+  padding: 2px 22px 2px 22px;
+  background-color: #6e6e6e;
+  /* left: 15px; */
+  height: 100%;
+  width: 82%;
+  align-self: center;
 }

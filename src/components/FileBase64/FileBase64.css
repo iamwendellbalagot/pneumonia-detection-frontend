@@ -1,40 +1,43 @@
-
 .FileBase {
-    background-color: #6e6d6d;
-    border-radius: 5px;
-    height: 20px;
-    width: 100px;
-    border: 1px solid #6e6d6d;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 17px;
-    padding: 13px 40px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #6e6d6d;
+  background-color: #6e6d6d;
+  border-radius: 5px;
+  height: 20px;
+  width: 100px;
+  border: 1px solid #6e6d6d;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 13px 40px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #6e6d6d;
 }
 
-.FileBase:hover
- {
-    background-color: #3f3c3c;
+.FileBase:hover {
+  background-color: #3f3c3c;
 }
 
 .FileBase:active {
-    position: relative;
-    top: 1px;
+  position: relative;
+  top: 1px;
+}
+
+.FileBase > span {
+  font-size: 13px;
+  cursor: pointer;
 }
 
 .FileBase input {
-    position: relative;
-    top: -33px;
-    right: 35px;
-    margin: 0;
-    padding: 0px 35px;
-    font-size: 20px;
-    height: 50px;
-    width: 100px;
-    cursor: pointer;
-    opacity: 0;
-    filter: alpha(opacity=0);
+  position: relative;
+  top: -33px;
+  right: 35px;
+  margin: 0;
+  padding: 0px 35px;
+  font-size: 20px;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  opacity: 0;
+  display: flex;
+  filter: alpha(opacity=0);
 }
